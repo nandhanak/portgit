@@ -1,0 +1,157 @@
+html ,body{
+    margin: 0;
+    padding:0px;
+
+
+
+
+
+    background-image: url(Screenshot\ edit.png);
+    
+
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.box{
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    position: absolute;
+    left: 500px;
+    top: 10px;
+   
+
+
+}
+span{
+
+    margin-left: 15px;
+    padding-left: 6px;
+    padding-top: 10px;
+    margin-top: 15px;
+    padding-right: 10px;
+    
+}
+.bo{
+    padding-right:15px;
+
+
+}
+button{
+    
+    
+    
+    background-color:transparent ;
+    font-size: 15px;
+    margin-right: 15px;
+    margin-top: 25px;
+    border-radius: 5px;
+    margin-bottom: 4px;
+    
+}
+b{
+    color: rgb(80, 21, 136);
+    
+}
+h2{
+    margin-top: 0px;
+    margin-left: 20px;
+}
+.htwo{
+
+    margin-left: 80px;
+    font-size:x-large;
+    color: black;
+    font-style: inherit;
+
+    
+}
+.two{
+    color: black;
+}
+input{
+    color: transparent;
+    width: 250px;
+    height: 20px;
+    border-color: beige;
+    margin-left: 45px;
+}
+button{
+    color:black;
+    background-color: darkmagenta;
+}
+.anima{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(197, 51, 51);
+    margin: 16px;
+    animation: ani 1s linear .5s infinite;
+}
+
+@keyframes ani{
+    from{
+        width:50px;
+        height: 50px;
+
+    }
+    to{
+         width:300px;
+         height: 300px;
+    }
+}
+.photo{
+    display: flex;
+    justify-content:left;
+}
+.p{
+    margin-top: 120px;
+    margin-left: 130px;
+}
+.o{
+    margin-top: 1px;
+    clip-path: circle(150px);
+    margin-left: 200px;
+    margin-right: 10px;
+    
+}
+h1{
+    margin-top: 50px;
+margin-right: 5px;
+margin-left: 15px;
+
+    text-shadow: 2px 0 0 rgb(121, 16, 16);
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+.he{
+    text-decoration-line: underline;
+    text-shadow: 5px 6 2 rgb(122, 41, 122);
+    margin-right: 500px;
+    color: rgb(47, 12, 143);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+
+}
+.ho{
+    text-decoration-line: underline;
+    text-shadow: 5px 6 2 rgb(121, 21, 121);
+    margin-right: 40px;
+    color:blue ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.para{
+    font-weight: 200px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}.par{
+    font-weight: 200px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
